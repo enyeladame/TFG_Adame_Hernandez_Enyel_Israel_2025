@@ -1,0 +1,58 @@
+[
+  {
+    "ingredientes": [
+      "Pan",
+      "Bacon"
+    ],
+    "resultado": "SandwichBacon"
+  },
+  {
+    "ingredientes": [
+      "Pan",
+      "Queso"
+    ],
+    "resultado": "SandwichQueso"
+  },
+  {
+    "ingredientes": [
+      "Bacon",
+      "Queso"
+    ],
+    "resultado": "BaconQueso"
+  },
+  {
+    "ingredientes": [
+      "SandwichBacon",
+      "Queso"
+    ],
+    "resultado": "SandwichBaconQueso"
+  },
+  {
+    "ingredientes": [
+      "SandwichQueso",
+      "Bacon"
+    ],
+    "resultado": "SandwichBaconQueso"
+  },
+  {
+    "ingredientes": [
+      "Baterias",
+      "Control_0"
+    ],
+    "resultado": "Control_1"
+  },
+  {
+    "ingredientes": [
+      "Control_0",
+      "Baterias"
+    ],
+    "resultado": "Control_1"
+  },
+  {
+    "ingredientes": [
+      "BaconQueso",
+      "Pan"
+    ],
+    "resultado": "SandwichBaconQueso"
+  }
+]

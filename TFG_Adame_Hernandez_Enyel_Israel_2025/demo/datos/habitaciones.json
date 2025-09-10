@@ -1,0 +1,236 @@
+{
+  "Habitacion_1": {
+    "fondo": "assets/fondos/Habitacion_1.png",
+    "npc": null,
+    "puertas": [
+      {
+        "id": "Puerta1",
+        "rect": [
+          600,
+          50,
+          119,
+          270
+        ],
+        "abierta": true,
+        "destino": "Pasillo"
+      }
+    ],
+    "interactuables": [
+      {
+        "id": "Cajon",
+        "tipo": "contenedor",
+        "rect": [
+          359,
+          189,
+          102,
+          40
+        ],
+        "vacio": false,
+        "items": [
+          "Baterias"
+        ]
+      }
+    ],
+    "objetos_suelo": [],
+    "scripts": []
+  },
+  "Pasillo": {
+    "fondo": "assets/fondos/Pasillo.png",
+    "npc": null,
+    "puertas": [
+      {
+        "id": "Puerta1",
+        "poligono": [[487,18],[519,63],[519,241],[487,199]],
+        "abierta": true,
+        "destino": "Habitacion_1"
+      },
+      {
+        "id": "Puerta2",
+        "poligono": [[546,65],[602,140],[602,350],[546,273]],
+        "abierta": false,
+        "destino": "Habitacion_2"
+      },
+      {
+        "id": "Puerta3",
+        "poligono": [[637,132],[725,249],[725,520],[637,403]],
+        "abierta": true,
+        "destino": "Cocina"
+      },
+      {
+        "id": "Puerta4",
+        "poligono": [[278,65],[314,17],[314,191],[278,242]],
+        "abierta": true,
+        "destino": "Baño"
+      },
+      {
+        "id": "Puerta5",
+        "poligono": [[199,138],[253,62],[253,278],[199,350]],
+        "abierta": true,
+        "destino": "Sala"
+      }
+    ],
+    "interactuables": [],
+    "objetos_suelo": [],
+    "scripts": [
+      {
+        "trigger": "usar",
+        "objetivo": "Puerta2",
+        "item": "Llave",
+        "resultado": {
+          "mensaje": "Abres la Puerta2 con la Llave.",
+          "eliminar_item": "Llave",
+          "abrir_puerta": "Puerta2"
+        }
+      }
+    ]
+  },
+  "Cocina": {
+    "fondo": "assets/fondos/Cocina.png",
+    "npc": null,
+    "puertas": [
+      {
+        "id": "Puerta3",
+        "rect": [
+          600,
+          50,
+          119,
+          270
+        ],
+        "abierta": true,
+        "destino": "Pasillo"
+      }
+    ],
+    "interactuables": [
+      {
+        "id": "Nevera",
+        "tipo": "contenedor",
+        "rect": [
+          436,
+          149,
+          140,
+          181
+        ],
+        "vacio": false,
+        "items": [
+          "Bacon",
+          "Queso"
+        ]
+      }
+    ],
+    "objetos_suelo": [
+      {
+        "id": "Pan",
+        "rect": [
+          200,
+          160,
+          40,
+          40
+        ]
+      }
+    ],
+    "scripts": []
+  },
+  "Baño": {
+    "fondo": "assets/fondos/Baño.png",
+    "npc": null,
+    "puertas": [
+      {
+        "id": "Puerta4",
+        "rect": [
+          81,
+          50,
+          119,
+          270
+        ],
+        "abierta": true,
+        "destino": "Pasillo"
+      }
+    ],
+    "interactuables": [],
+    "objetos_suelo": [
+      {
+        "id": "Llave",
+        "rect": [
+          420,
+          320,
+          40,
+          40
+        ]
+      }
+    ],
+    "scripts": []
+  },
+  "Sala": {
+    "fondo": "assets/fondos/Sala.png",
+    "npc": {
+      "id": "Abuela",
+      "rect": [
+        560,
+        280,
+        100,
+        100
+      ]
+    },
+    "puertas": [
+      {
+        "id": "Puerta5",
+        "rect": [
+          81,
+          50,
+          119,
+          270
+        ],
+        "abierta": true,
+        "destino": "Pasillo"
+      }
+    ],
+    "interactuables": [],
+    "objetos_suelo": [
+      {
+        "id": "Control_0",
+        "rect": [
+          570,
+          340,
+          40,
+          40
+        ]
+      }
+    ],
+    "scripts": []
+  },
+  "Habitacion_2": {
+    "fondo": "assets/fondos/Habitacion_2.png",
+    "npc": null,
+    "puertas": [
+      {
+        "id": "Puerta2",
+        "rect": [
+          600,
+          50,
+          119,
+          270
+        ],
+        "abierta": true,
+        "destino": "Pasillo"
+      }
+    ],
+    "interactuables": [
+      {
+        "id": "Armario",
+        "tipo": "contenedor",
+        "rect": [
+          272,
+          53,
+          119,
+          281
+        ],
+        "vacio": false,
+        "items": [
+          "Manta"
+        ]
+      }
+    ],
+    "objetos_suelo": [],
+    "scripts": []
+  }
+}
