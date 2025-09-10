@@ -76,7 +76,7 @@ Desde la raíz del proyecto:
 Estructura del proyecto.
 ======================================
 TFG_AdameEnyelv3/
-  -engine/
+  engine/
     audio.py            (control de la música y volumen 0–10)
     combinaciones.py    (funcionamiento para el manejo de combinacion de objetos con recetas 2 objetos ? 1 objeto)
     cursor.py           (cursor personalizado para el proyecto)
@@ -86,7 +86,7 @@ TFG_AdameEnyelv3/
     recursos.py         (carga y caché de imágenes/fuentes/sonidos)
     rendimiento.py      (control y telemétria de FPS/eventos detectados durante la ejecución)
     scripting.py        (intérprete de scripts por triggers y/o acciones)
-  -demo/
+  demo/
     main.py             (bucle principal de la demo)
     datos/
       habitaciones.json (descripcion del "mundo": puertas, interactuables, objetos, scripts, dialogos, etc)
