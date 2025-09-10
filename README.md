@@ -6,13 +6,13 @@ Motor 2D minimalista para aventuras gráficas estilo SCUMM, escrito en Python co
 
 Incluye una demo jugable que muestra.
 ======================================
--Interfaz inspirada en SCUMM.
--Inventario de 2 filas × 3 columnas (6 casillas).
--Puertas, contenedores y objetos interactuables.
--Sistema de recetas y combinaciones de objetos (2 ? 1).
--Diálogos simples (mediante el control de flags).
--Guardado y carga de partida por medio de un archivo JSON.
--Resumen de rendimiento al terminar la ejecución del código (FPS, eventos, recursos, duración, pico de objetos en inventario).
+- Interfaz inspirada en SCUMM.
+- Inventario de 2 filas × 3 columnas (6 casillas).
+- Puertas, contenedores y objetos interactuables.
+- Sistema de recetas y combinaciones de objetos (2 ? 1).
+- Diálogos simples (mediante el control de flags).
+- Guardado y carga de partida por medio de un archivo JSON.
+- Resumen de rendimiento al terminar la ejecución del código (FPS, eventos, recursos, duración, pico de objetos en inventario).
 
 Requisitos previos.
 ======================================
