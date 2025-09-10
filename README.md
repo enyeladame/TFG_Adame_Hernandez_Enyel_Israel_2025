@@ -4,7 +4,8 @@ Descripción del proyecto.
 ======================================
 Motor 2D minimalista para aventuras gráficas estilo SCUMM, escrito en Python con Pygame. 
 
-Incluye una demo jugable que muestra:
+Incluye una demo jugable que muestra.
+======================================
 -Interfaz inspirada en SCUMM.
 -Inventario de 2 filas × 3 columnas (6 casillas).
 -Puertas, contenedores y objetos interactuables.
